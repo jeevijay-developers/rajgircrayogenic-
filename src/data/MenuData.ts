@@ -23,6 +23,19 @@ const menu_data: MenuItem[] = [
     title: "About",
     link: "/about",
   },
+  {
+    id: 3,
+    has_dropdown: true,
+    title: "Products",
+    link: "#",
+    sub_menus: [
+      { link: "/hpcl", title: "High Priority Liquid CO2" },
+      { link: "/dryice", title: "Dry Ice" },
+      { link: "/crp", title: "CO2 recovery plant" },
+      { link: "ve", title: "Vessel and Equipment" },
+      { link: "/404", title: "Error Page" },
+    ],
+  },
   // {
   //   id: 3,
   //   has_dropdown: false,
