@@ -110,35 +110,61 @@ const About = () => {
               <div className="col-xl-6 col-lg-8 mt-5 mt-xl-0">
                 <div className="about-content">
                   <div className="section-title">
-                    <span className="wow fadeInUp">Dr. Kanchan</span>
+                    <span className="wow fadeInUp">Rajgir Cryogenic Gases</span>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                      {title}
+                      Why Choose Us?
                     </h2>
                   </div>
                   <p className="mt-4 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                    Whether you&apos;re striving for personal growth,
-                    professional success, or a balanced life, Kanchan Ma&apos;am
-                    is here to guide you with proven techniques and strategies.
-                    Through <b>seminars, webinars, and personalized coaching</b>
-                    , she has transformed the lives of thousands.
+                    At Rajgir Cryogenic Gases, we are dedicated to delivering
+                    reliable, efficient, and eco-friendly CO<sub>2</sub>{" "}
+                    solutions. With years of experience across multiple
+                    industries, we provide cutting-edge technology and
+                    customized services for all your carbon dioxide needs.
                   </p>
                   <ul className="wow fadeInUp" data-wow-delay=".7s">
-                    {about_list.map((list, i) => (
-                      <li key={i}>
-                        <i
-                          className="fa-solid fa-circle-check"
-                          style={{ color: "#14b2f1" }}
-                        ></i>
-                        {list}
-                      </li>
-                    ))}
+                    <li>
+                      <i
+                        className="fa-solid fa-circle-check"
+                        style={{ color: "#14b2f1" }}
+                      ></i>
+                      Reliable & Efficient CO<sub>2</sub> Solutions
+                    </li>
+                    <li>
+                      <i
+                        className="fa-solid fa-circle-check"
+                        style={{ color: "#14b2f1" }}
+                      ></i>
+                      Custom-Designed Systems for Diverse Industries
+                    </li>
+                    <li>
+                      <i
+                        className="fa-solid fa-circle-check"
+                        style={{ color: "#14b2f1" }}
+                      ></i>
+                      Sustainable CO<sub>2</sub> Recovery & Reuse
+                    </li>
+                    <li>
+                      <i
+                        className="fa-solid fa-circle-check"
+                        style={{ color: "#14b2f1" }}
+                      ></i>
+                      High-Purity Dry Ice Production
+                    </li>
+                    <li>
+                      <i
+                        className="fa-solid fa-circle-check"
+                        style={{ color: "#14b2f1" }}
+                      ></i>
+                      Advanced Storage & Transportation Solutions
+                    </li>
                   </ul>
                   <div
                     className="about-info-items wow fadeInUp"
                     data-wow-delay=".9s"
                   >
                     <Link href="/about" className="theme-btn-2">
-                      know More About us
+                      Know More About Us
                       <span className="shape-img">
                         <Image src={about_img4} alt="shape-img" />
                       </span>
@@ -149,10 +175,10 @@ const About = () => {
                         <i className="fa-solid fa-phone-volume"></i>
                         <h6>
                           <Link
-                            href="tel:+91-90962 07767"
+                            href="tel:+91-9096207767"
                             style={{ color: "#ffe000" }}
                           >
-                            +91 90962 07767
+                            +91 XXXXXXXXX
                           </Link>
                         </h6>
                       </div>
