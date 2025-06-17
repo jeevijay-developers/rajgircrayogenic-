@@ -20,20 +20,20 @@ interface DataType {
 const hero_data: DataType[] = [
   {
     id: 1,
-    bg_img: "/assets/img/gallery/coaching-ethik-DCA.jpg",
+    bg_img: "/assets/img/hero/hero-2.jpg",
     sub_title: "Special industrial",
     title: "Industrial Manufacturing Forging The future",
   },
   {
     id: 2,
     // bg_img: "/assets/img/hero/hero-2.jpg",
-    bg_img: "/assets/img/gallery/mindset-3455748_1920.jpg",
+    bg_img: "/assets/img/hero/hero-3.jpg",
     sub_title: "Special industrial",
     title: "Industrial Manufacturing Forging The future",
   },
   {
     id: 3,
-    bg_img: "/assets/img/gallery/monk-6113501_1920.png",
+    bg_img: "/assets/img/hero/hero-4.jpg",
     sub_title: "Special industrial",
     title: "Industrial Manufacturing Forging The future",
   },

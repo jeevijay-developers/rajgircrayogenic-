@@ -12,7 +12,7 @@ import about_img4 from "@/assets/img/arrow-shape.png";
 import about_img5 from "@/assets/img/fac1.jpeg";
 import about_img6 from "@/assets/img/fac1R.jpeg";
 import about_img7 from "@/assets/img/image4.jpeg";
-import about_img8 from "@/assets/img/WhatsApp Image 2025-02-09 at 10.52.35 AM.jpeg";
+import about_img8 from "@/assets/img/team/06.jpg";
 
 interface DataType {
   sub_title: string;
@@ -57,9 +57,8 @@ const About = () => {
                     borderRadius: "10px",
                   }}
                 >
-                  <img
-                    // src={about_img8}
-                    src="https://placehold.co/600x400/png"
+                  <Image
+                    src={about_img8}
                     alt="img"
                     style={{
                       border: "4px solid white",

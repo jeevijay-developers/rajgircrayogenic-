@@ -23,6 +23,24 @@ const menu_data: MenuItem[] = [
     title: "About",
     link: "/about",
   },
+  {
+    id: 3,
+    has_dropdown: true,
+    title: "Products",
+    link: "#",
+    sub_menus: [
+      { link: "/hpcl", title: "High Priority Liquid CO2" },
+      { link: "/dryice", title: "Dry Ice" },
+      { link: "/crp", title: "CO2 recovery plant" },
+      { link: "ve", title: "Vessel and Equipment" },
+      { link: "/404", title: "Error Page" },
+    ],},
+  {
+    id: 3,
+    has_dropdown: false,
+    title: "Quality Assurance",
+    link: "/quality-assurance",
+  },
   // {
   //   id: 3,
   //   has_dropdown: false,
@@ -37,7 +55,7 @@ const menu_data: MenuItem[] = [
   //   link: "/gallery",
   // },
   {
-    id: 3,
+    id: 4,
     has_dropdown: true,
     title: "Project",
     link: "#",
@@ -49,7 +67,7 @@ const menu_data: MenuItem[] = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     has_dropdown: false,
     title: "Carreer",
     link: "/carrer",
@@ -92,11 +110,12 @@ const menu_data: MenuItem[] = [
   //    ],
   // },
   {
-    id: 7,
+    id: 6,
     has_dropdown: false,
     title: "Contact",
     link: "/contact",
   },
+  
   // {
   //   id: 4,
   //   has_dropdown: false,
