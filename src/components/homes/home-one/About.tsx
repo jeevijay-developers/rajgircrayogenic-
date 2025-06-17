@@ -89,28 +89,18 @@ const About = () => {
                   <div className="working-area float-bob-y">
                     <div className="inner">
                       <div className="icon-box">
-                        <i className="fa-solid fa-medal"></i>
+                        <i className="fa-solid fa-industry"></i>
                         <h3>
-                          <span className="count">
-                            {/* <Count number={25} /> */}
-                            20+
-                          </span>{" "}
-                          Years of
+                          <span className="count">10+</span> Years of
                         </h3>
-                        <p
-                          style={{
-                            textAlign: "center",
-                          }}
-                        >
-                          Experience of
+                        <p style={{ textAlign: "center" }}>
+                          Trusted Expertise in
                         </p>
-                        <p
-                          style={{
-                            textAlign: "left",
-                          }}
-                        >
-                          training and mentoring <br /> students for academic{" "}
-                          <br /> & career growth
+                        <p style={{ textAlign: "left" }}>
+                          CO<sub>2</sub> solutions for industries including{" "}
+                          <br />
+                          food & beverage, pharmaceuticals, <br />
+                          agriculture, welding, and more
                         </p>
                       </div>
                     </div>

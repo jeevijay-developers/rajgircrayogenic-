@@ -17,29 +17,27 @@ const faq_data: DataType[] = [
     id: 1,
     data_wow_delay: ".3s",
     space: "mb-3",
-    title: "What services does Kanchan Ma’am offer?",
+    title: "What products and services do you offer?",
     desc: (
       <>
         <ol type="1">
           <li>
-            <b>Personal Growth Coaching </b> – Transform your mindset for
-            success.
+            <b>Liquid Carbon Dioxide (CO₂)</b> – High and low-pressure CO₂
+            supply with safe storage and transportation solutions.
           </li>
           <li>
-            <b>Business & Career Training</b> – Develop leadership and
-            professional skills.
+            <b>CO₂ Recovery Plants</b> – Custom-designed systems for breweries,
+            fertilizer plants, and fermentation units.
           </li>
           <li>
-            <b> Seminar & Webinar Programs</b> – Interactive sessions on
-            motivation, productivity, and mindset.
+            <b>Dry Ice Production</b> – High-quality dry ice in blocks or
+            pellets for industrial and commercial use.
           </li>
           <li>
-            <b>Emotional Intelligence & Stress Management</b> – Techniques to
-            master emotions and build resilience.
+            <b>Custom Solutions</b> – Tailored CO₂ systems for various
+            industries including medical, food processing, and agriculture.
           </li>
         </ol>
-        {/* Yes, we specialize in designing and manufacturing custom bottles, caps,
-        closures, and measuring cups tailored to your specific needs. */}
       </>
     ),
   },
@@ -47,20 +45,19 @@ const faq_data: DataType[] = [
     id: 2,
     data_wow_delay: ".5s",
     space: "mb-3",
-    title: "Who can benefit from these coaching programs?",
+    title: "Which industries do you serve?",
     desc: (
       <>
         <ul>
-          <li>
-            Anyone looking for personal or professional growth can benefit,
-            including:
-            <ul>
-              <li>Entrepreneurs & Business Owners</li>
-              <li>Working Professionals & Corporate Teams</li>
-              <li>Students & Job Seekers</li>
-              <li> Individuals Seeking Self-Improvement</li>
-            </ul>
-          </li>
+          <li>We cater to a wide range of industries including:</li>
+          <ul>
+            <li>Food & Beverage</li>
+            <li>Medical & Pharmaceuticals</li>
+            <li>Welding & Metal Fabrication</li>
+            <li>Agriculture</li>
+            <li>Chemical Processing</li>
+            <li>Entertainment & Special Effects</li>
+          </ul>
         </ul>
       </>
     ),
@@ -69,20 +66,60 @@ const faq_data: DataType[] = [
     id: 3,
     data_wow_delay: ".7s",
     space: "mb-3",
-    title: "How can I book a coaching session?",
+    title: "How is dry ice produced?",
     desc: (
       <>
-        You can book a session through the Contact Us page or by reaching out
-        via:
+        Dry ice is made by releasing liquid CO₂ under controlled conditions to
+        form snow, which is then compressed into blocks or pellets. The gas
+        released during this process is recovered and reused, ensuring minimal
+        waste.
+      </>
+    ),
+  },
+  {
+    id: 4,
+    data_wow_delay: ".9s",
+    title: "Do you offer customized CO₂ solutions?",
+    desc: (
+      <>
+        Yes, we specialize in designing CO₂ storage, recovery, and transport
+        systems tailored to your space, production volume, and operational
+        needs.
+      </>
+    ),
+  },
+  {
+    id: 5,
+    data_wow_delay: ".9s",
+    title: "What are the safety measures for handling liquid CO₂?",
+    desc: (
+      <>
+        Our CO₂ is stored under pressure in insulated tanks and transported
+        using secure road tankers. All systems include temperature and pressure
+        controls to ensure safety and stability.
+      </>
+    ),
+  },
+  {
+    id: 6,
+    data_wow_delay: ".9s",
+    title: "How can I contact Rajgir Cryogenic Gases?",
+    desc: (
+      <>
+        Please get in touch with us via:
         <table>
           <tbody>
             <tr>
-              <td>Email : </td>
-              <td> info@coachkanchan.com</td>
+              <td>Email:</td>
+              <td> [Your Email]</td>
             </tr>
             <tr>
-              <td>Phone / WhatsApp:</td>
-              <td>90962 07767</td>
+              <td>Phone:</td>
+              <td> [Your Contact Number]</td>
+            </tr>
+            <tr>
+              <td>Location:</td>
+              <td> [Your Address]</td>
             </tr>
           </tbody>
         </table>
@@ -90,57 +127,19 @@ const faq_data: DataType[] = [
     ),
   },
   {
-    id: 4,
-    data_wow_delay: ".9s",
-    title: "Are these programs available online?",
-    desc: (
-      <>
-        Yes! Kanchan Ma’am offers both online and offline coaching. You can join
-        live webinars, book one-on-one coaching calls, or attend in-person
-        seminars.
-      </>
-    ),
-  },
-  {
-    id: 5,
-    data_wow_delay: ".9s",
-    title: "What types of courses are available?",
-    desc: (
-      <>
-        <ul>
-          <li> Mindset Mastery Program</li>
-          <li> Success Blueprint for Entrepreneurs</li>
-          <li>Confidence & Leadership Coaching</li>
-          <li> Breakthrough Goal-Setting Workshop</li>
-        </ul>
-      </>
-    ),
-  },
-  {
-    id: 6,
-    data_wow_delay: ".9s",
-    title: "Can companies book Kanchan Ma’am for corporate training?",
-    desc: (
-      <>
-        Absolutely! Kanchan Ma’am conducts corporate training programs designed
-        for employee motivation, leadership development, and team productivity.
-        Contact us for a customized workshop.
-      </>
-    ),
-  },
-  {
     id: 7,
     data_wow_delay: ".9s",
-    title: "Where can I find success stories and testimonials?",
+    title: "Do you follow eco-friendly practices?",
     desc: (
       <>
-        You can visit our Gallery and Testimonials sections to see photos,
-        videos, and success stories of people who have transformed their lives
-        through Kanchan Ma’am’s coaching.
+        Absolutely. Our CO₂ recovery systems minimize emissions by capturing and
+        purifying CO₂ for reuse, reducing environmental impact and supporting
+        sustainability.
       </>
     ),
   },
 ];
+
 
 const Faq = ({ style }: any) => {
   const [activeId, setActiveId] = useState<number>(1);
