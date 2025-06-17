@@ -2,7 +2,7 @@ import Gallery from "@/components/inner-pages/gallery";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-  title: "Dr. Kanchan",
+  title: "Rajgir crayogenic Gases",
 };
 const index = () => {
   return (
