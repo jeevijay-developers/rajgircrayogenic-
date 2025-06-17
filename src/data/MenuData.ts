@@ -23,6 +23,7 @@ const menu_data: MenuItem[] = [
     title: "About",
     link: "/about",
   },
+<<<<<<< Updated upstream
   {
     id: 3,
     has_dropdown: true,
@@ -35,6 +36,14 @@ const menu_data: MenuItem[] = [
       { link: "ve", title: "Vessel and Equipment" },
       { link: "/404", title: "Error Page" },
     ],
+=======
+
+  {
+    id: 3,
+    has_dropdown: false,
+    title: "Quality Assurance",
+    link: "/quality-assurance",
+>>>>>>> Stashed changes
   },
   // {
   //   id: 3,
@@ -50,7 +59,7 @@ const menu_data: MenuItem[] = [
   //   link: "/gallery",
   // },
   {
-    id: 3,
+    id: 4,
     has_dropdown: true,
     title: "Project",
     link: "#",
@@ -62,7 +71,7 @@ const menu_data: MenuItem[] = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     has_dropdown: false,
     title: "Carreer",
     link: "/carrer",
@@ -105,11 +114,12 @@ const menu_data: MenuItem[] = [
   //    ],
   // },
   {
-    id: 7,
+    id: 6,
     has_dropdown: false,
     title: "Contact",
     link: "/contact",
   },
+  
   // {
   //   id: 4,
   //   has_dropdown: false,
