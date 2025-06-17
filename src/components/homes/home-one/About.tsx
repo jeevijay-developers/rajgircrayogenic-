@@ -57,8 +57,9 @@ const About = () => {
                     borderRadius: "10px",
                   }}
                 >
-                  <Image
-                    src={about_img8}
+                  <img
+                    // src={about_img8}
+                    src="https://placehold.co/600x400/png"
                     alt="img"
                     style={{
                       border: "4px solid white",
