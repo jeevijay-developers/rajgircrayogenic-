@@ -48,6 +48,12 @@ const menu_data: MenuItem[] = [
       { link: "/vessel-equip", title: "Vessel Equipment" },
     ],
   },
+  {
+    id: 4,
+    has_dropdown: false,
+    title: "Carreer",
+    link: "/carrer",
+  },
   // {
   //   id: 4,
   //   has_dropdown: true,
