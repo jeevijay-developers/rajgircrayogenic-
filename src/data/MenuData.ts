@@ -36,16 +36,24 @@ const menu_data: MenuItem[] = [
   //   title: "Gallery",
   //   link: "/gallery",
   // },
-  // {
-  //   id: 3,
-  //   has_dropdown: true,
-  //   title: "Project",
-  //   link: "#",
-  //   sub_menus: [
-  //     { link: "/project", title: "Projects" },
-  //     { link: "/project-details", title: "Projects Details" },
-  //   ],
-  // },
+  {
+    id: 3,
+    has_dropdown: true,
+    title: "Project",
+    link: "#",
+    sub_menus: [
+      { link: "/liquid-co2", title: "Liquid CO2" },
+      { link: "/dry-ice", title: "Dry Ice" },
+      { link: "/co2-rec-plant", title: "CO2 Recovery plant" },
+      { link: "/vessel-equip", title: "Vessel Equipment" },
+    ],
+  },
+  {
+    id: 4,
+    has_dropdown: false,
+    title: "Carreer",
+    link: "/carrer",
+  },
   // {
   //   id: 4,
   //   has_dropdown: true,
