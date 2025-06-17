@@ -178,7 +178,7 @@ const About = () => {
                             href="tel:+91-9096207767"
                             style={{ color: "#ffe000" }}
                           >
-                            +91 XXXXXXXXX
+                            +91 9639020081
                           </Link>
                         </h6>
                       </div>

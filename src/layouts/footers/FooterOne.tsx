@@ -23,7 +23,10 @@ const FooterOne = () => {
                   </Link>
                 </div>
                 <div className="footer-content">
-                  <p>Address XYZ.</p>
+                  <p>
+                    Khata No. 815, Pingakash Beverages Pvt Ltd, Talera, Bundi,
+                    Rajasthan, 323021
+                  </p>
                   <ul className="contact-info">
                     {/* <li>
                       <i className="fas fa-map-marker-alt"></i>
@@ -41,7 +44,7 @@ const FooterOne = () => {
                         href="tel:90962 07767"
                         style={{ color: "#14b2f1 " }}
                       >
-                        +91 xxxxxxxxx
+                        +91 9639020081
                       </Link>
                     </li>
                   </ul>

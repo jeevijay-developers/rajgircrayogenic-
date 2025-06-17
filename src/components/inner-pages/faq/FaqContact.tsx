@@ -14,12 +14,12 @@ const faq_contact_data: DataType[] = [
     title: "Phone & Fax",
     contact_1: (
       <>
-        Mobile : <a href="tel:+912646251639">+91 xxxxx</a>
+        Mobile : <a href="tel:+919639020081">+91 9639020081</a>
       </>
     ),
     contact_2: (
       <>
-        Mobile : <a href="tel:+912646221638">+91 xxxxx</a>
+        Mobile : <a href="tel:+919639020081">+91 9639020081</a>
       </>
     ),
   },
@@ -27,15 +27,20 @@ const faq_contact_data: DataType[] = [
     id: 2,
     data_wow_delay: ".5s",
     title: "Mail Address",
-    contact_1: <>info@gmail.com</>,
-    contact_2: <>info@gmail.com</>,
+    contact_1: <>rajgirllpsales@gmail.com</>,
+    contact_2: <>rajgirllpsales@gmail.com</>,
   },
   {
     id: 3,
     data_wow_delay: ".7s",
     title: "Factory Locations",
-    contact_1: <>xyz</>,
-    contact_2: <>xyz</>,
+    contact_1: (
+      <>
+        Khata No. 815, Pingakash Beverages Pvt Ltd, Talera, Bundi, Rajasthan,
+        323021
+      </>
+    ),
+    contact_2: <></>,
   },
   {
     id: 4,
