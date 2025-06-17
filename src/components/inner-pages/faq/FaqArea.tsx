@@ -9,7 +9,12 @@ const FaqArea = () => {
         <div className="row g-5">
           <div className="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
             <div className="faq-image">
-              <img src={"https://placehold.co/600x400/png"} alt="img" />
+              <Image
+                src="/assets/img/gallery/02.jpg"
+                alt="Gallery"
+                width={600}
+                height={400}
+              />
             </div>
           </div>
           <div className="col-lg-6">
