@@ -19,14 +19,11 @@ const FooterOne = () => {
                 <div className="widget-head">
                   <Link href="/">
                     {/* <Image src={logo} alt="logo-img" /> */}
-                    Coach Kanchan
+                    Rajgir crayogenic Gases
                   </Link>
                 </div>
                 <div className="footer-content">
-                  <p>
-                    F-7, Arunoday Complex, Opp. Little Hut, GIDC Estate
-                    Ankleshwar.
-                  </p>
+                  <p>Address XYZ.</p>
                   <ul className="contact-info">
                     {/* <li>
                       <i className="fas fa-map-marker-alt"></i>
@@ -44,7 +41,7 @@ const FooterOne = () => {
                         href="tel:90962 07767"
                         style={{ color: "#14b2f1 " }}
                       >
-                        +91 90962 07767
+                        +91 xxxxxxxxx
                       </Link>
                     </li>
                   </ul>
