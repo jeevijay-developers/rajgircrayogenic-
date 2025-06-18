@@ -34,9 +34,10 @@ const menu_data: MenuItem[] = [
       { link: "/crp", title: "CO2 recovery plant" },
       { link: "ve", title: "Vessel and Equipment" },
       { link: "/404", title: "Error Page" },
-    ],},
+    ],
+  },
   {
-    id: 3,
+    id: 343,
     has_dropdown: false,
     title: "Quality Assurance",
     link: "/quality-assurance",
@@ -54,18 +55,18 @@ const menu_data: MenuItem[] = [
   //   title: "Gallery",
   //   link: "/gallery",
   // },
-  {
-    id: 4,
-    has_dropdown: true,
-    title: "Project",
-    link: "#",
-    sub_menus: [
-      { link: "/liquid-co2", title: "Liquid CO2" },
-      { link: "/dry-ice", title: "Dry Ice" },
-      { link: "/co2-rec-plant", title: "CO2 Recovery plant" },
-      { link: "/vessel-equip", title: "Vessel Equipment" },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   has_dropdown: true,
+  //   title: "Project",
+  //   link: "#",
+  //   sub_menus: [
+  //     { link: "/liquid-co2", title: "Liquid CO2" },
+  //     { link: "/dry-ice", title: "Dry Ice" },
+  //     { link: "/co2-rec-plant", title: "CO2 Recovery plant" },
+  //     { link: "/vessel-equip", title: "Vessel Equipment" },
+  //   ],
+  // },
   {
     id: 5,
     has_dropdown: false,
@@ -115,7 +116,7 @@ const menu_data: MenuItem[] = [
     title: "Contact",
     link: "/contact",
   },
-  
+
   // {
   //   id: 4,
   //   has_dropdown: false,
