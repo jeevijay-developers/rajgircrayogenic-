@@ -35,6 +35,12 @@ const menu_data: MenuItem[] = [
       { link: "ve", title: "Vessel and Equipment" },
     ],
   },
+  {
+    id: 343,
+    has_dropdown: false,
+    title: "Quality Assurance",
+    link: "/quality-assurance",
+  },
   // {
   //   id: 3,
   //   has_dropdown: false,
@@ -48,20 +54,20 @@ const menu_data: MenuItem[] = [
   //   title: "Gallery",
   //   link: "/gallery",
   // },
+  // {
+  //   id: 4,
+  //   has_dropdown: true,
+  //   title: "Project",
+  //   link: "#",
+  //   sub_menus: [
+  //     { link: "/liquid-co2", title: "Liquid CO2" },
+  //     { link: "/dry-ice", title: "Dry Ice" },
+  //     { link: "/co2-rec-plant", title: "CO2 Recovery plant" },
+  //     { link: "/vessel-equip", title: "Vessel Equipment" },
+  //   ],
+  // },
   {
-    id: 3,
-    has_dropdown: true,
-    title: "Project",
-    link: "#",
-    sub_menus: [
-      { link: "/liquid-co2", title: "Liquid CO2" },
-      { link: "/dry-ice", title: "Dry Ice" },
-      { link: "/co2-rec-plant", title: "CO2 Recovery plant" },
-      { link: "/vessel-equip", title: "Vessel Equipment" },
-    ],
-  },
-  {
-    id: 4,
+    id: 5,
     has_dropdown: false,
     title: "Carreer",
     link: "/carrer",
@@ -104,11 +110,12 @@ const menu_data: MenuItem[] = [
   //    ],
   // },
   {
-    id: 7,
+    id: 6,
     has_dropdown: false,
     title: "Contact",
     link: "/contact",
   },
+
   // {
   //   id: 4,
   //   has_dropdown: false,

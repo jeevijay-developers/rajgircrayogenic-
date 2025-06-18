@@ -7,7 +7,7 @@ const BreadCrumb = ({ title }: any) => {
     <div
       className="breadcrumb-wrapper bg-cover"
       style={{
-        backgroundImage: `url(/assets/img/gallery/sunset-5033708_1920.jpg`,
+        backgroundImage: `url(/assets/img/hero/hero-2.jpg`,
       }}
     >
       <div className="mask-shape">

@@ -132,7 +132,7 @@ const About2 = () => {
                       ></i>
                     </div>
                     <h4>
-                      <Link href="tel:+919999999999">9999999999</Link>
+                      <Link href="tel:+919639020081">+91 9639020081</Link>
                     </h4>
                   </div>
                 </div>
