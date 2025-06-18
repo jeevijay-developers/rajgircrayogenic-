@@ -79,7 +79,7 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: any) => {
                       <i className="fas fa-phone-alt"></i>
                     </div>
                     <div className="offcanvas__contact-text">
-                      <Link href="tel:+9999999999">+91 9999999999</Link>
+                      <Link href="tel:+919639020081">+91 9639020081</Link>
                     </div>
                   </li>
                 </ul>

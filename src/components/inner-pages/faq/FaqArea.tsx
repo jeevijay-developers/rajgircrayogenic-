@@ -10,7 +10,7 @@ const FaqArea = () => {
           <div className="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
             <div className="faq-image">
               <Image
-                src="/assets/img/gallery/02.jpg"
+                src="/assets/img/rajgir/13.jpeg"
                 alt="Gallery"
                 width={600}
                 height={400}

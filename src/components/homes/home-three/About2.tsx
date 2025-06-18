@@ -3,7 +3,7 @@ import Count from "@/components/common/Count";
 import Link from "next/link";
 
 import about_thumb from "@/assets/img/about/about-3.jpg";
-import image from "@/assets/img/about/about-3.jpg";
+import image from "@/assets/img/rajgir/5.jpeg";
 import about_arrow from "@/assets/img/arrow-shape.png";
 
 interface ContentType {
