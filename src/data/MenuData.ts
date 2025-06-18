@@ -33,7 +33,6 @@ const menu_data: MenuItem[] = [
       { link: "/dryice", title: "Dry Ice" },
       { link: "/crp", title: "CO2 recovery plant" },
       { link: "ve", title: "Vessel and Equipment" },
-      { link: "/404", title: "Error Page" },
     ],
   },
   // {

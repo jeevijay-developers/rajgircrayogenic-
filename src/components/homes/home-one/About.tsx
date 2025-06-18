@@ -58,14 +58,15 @@ const About = () => {
                   }}
                 >
                   <Image
-                    src={about_img8}
+                    src={"/assets/img/Plant1.jpg"}
                     alt="img"
                     style={{
                       border: "4px solid white",
                       borderRadius: "10px",
                       // objectFit: "fill",
-                      height: "100%",
                     }}
+                    height={580}
+                    width={500}
                   />
                   <div
                     className="border-shape"
