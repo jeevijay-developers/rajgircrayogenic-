@@ -58,14 +58,15 @@ const About = () => {
                   }}
                 >
                   <Image
-                    src={about_img8}
+                    src={"/assets/img/Plant1.jpg"}
                     alt="img"
                     style={{
                       border: "4px solid white",
                       borderRadius: "10px",
                       // objectFit: "fill",
-                      height: "100%",
                     }}
+                    height={580}
+                    width={500}
                   />
                   <div
                     className="border-shape"
@@ -75,7 +76,7 @@ const About = () => {
                   </div>
                   <div className="video-image">
                     {/* <Image src={about_img3} alt="img" /> */}
-                    <div className="video-box">
+                    {/* <div className="video-box">
                       <a
                         onClick={() => setIsVideoOpen(true)}
                         style={{ cursor: "pointer" }}
@@ -83,7 +84,7 @@ const About = () => {
                       >
                         <i className="fa-solid fa-play"></i>
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="working-area float-bob-y">
                     <div className="inner">
