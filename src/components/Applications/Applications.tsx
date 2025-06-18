@@ -4,9 +4,9 @@ import styles from "./Beverages.module.css";
 import { applicationData } from "./applicationData.js";
 const Applications = () => {
      return (
-    <div className="container my-5">
+    <div className="container py-5 my-5">
       {applicationData.map((section, index) => (
-        <div className="row align-items-center py-5 my-lg-5" key={index}>
+        <div className="row align-items-center  my-lg-5" key={index}>
           {section.imageFirst && (
             <div
               className="col-md-6 mb-4 mb-md-0 d-flex"
