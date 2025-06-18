@@ -35,8 +35,9 @@ const menu_data: MenuItem[] = [
       { link: "ve", title: "Vessel and Equipment" },
     ],
   },
+
   {
-    id: 343,
+    id: 4,
     has_dropdown: false,
     title: "Quality Assurance",
     link: "/quality-assurance",
@@ -109,8 +110,14 @@ const menu_data: MenuItem[] = [
   //       { link: "/news-details", title: "Blog Details" },
   //    ],
   // },
-  {
+    {
     id: 6,
+    has_dropdown: false,
+    title: "Applications",
+    link: "/applications"
+  },
+  {
+    id: 7,
     has_dropdown: false,
     title: "Contact",
     link: "/contact",

@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 const NavMenu = () => {
   const currentRoute = usePathname();
 
- const [hoveredId, setHoveredId] = useState<number | null>(null);
+  const [hoveredId, setHoveredId] = useState<number | null>(null);
 
 
   const isMenuItemActive = (menuLink: string) => {
@@ -38,32 +38,30 @@ const NavMenu = () => {
       {menu_data.map((menu: any) => (
         <li key={menu.id}>
           <Link
-  href={menu.link}
-  onMouseEnter={() => setHoveredId(menu.id)}
-  onMouseLeave={() => setHoveredId(null)}
-  style={{
-    textDecoration: "none",
-  }}
->
-  <span
-    style={{
-      color:
-        isMenuItemActive(menu.link) ||
-        hoveredId === menu.id ||
-        (menu.sub_menus &&
-          menu.sub_menus.some(
-            (sub_m: any) => sub_m.link && isSubMenuItemActive(sub_m.link)
-          ))
-          ? "#ffe000"
-          : "white",
-      transition: "color 0.3s ease",
-    }}
-  >
-    {menu.title}
-  </span>
-</Link>
-
-
+            href={menu.link}
+            onMouseEnter={() => setHoveredId(menu.id)}
+            onMouseLeave={() => setHoveredId(null)}
+            style={{
+              textDecoration: "none",
+            }}
+          >
+            <span
+              style={{
+                color:
+                  isMenuItemActive(menu.link) ||
+                    hoveredId === menu.id ||
+                    (menu.sub_menus &&
+                      menu.sub_menus.some(
+                        (sub_m: any) => sub_m.link && isSubMenuItemActive(sub_m.link)
+                      ))
+                    ? "#ffe000"
+                    : "white",
+                transition: "color 0.3s ease",
+              }}
+            >
+              {menu.title}
+            </span>
+          </Link>
           {menu.has_dropdown && (
             <>
               {menu.sub_menus && (
@@ -72,11 +70,10 @@ const NavMenu = () => {
                     <li key={i}>
                       <Link
                         href={sub_m.link}
-                        className={`${
-                          sub_m.link && isSubMenuItemActive(sub_m.link)
+                        className={`${sub_m.link && isSubMenuItemActive(sub_m.link)
                             ? "active"
                             : ""
-                        }`}
+                          }`}
                       >
                         {sub_m.title}
                       </Link>
