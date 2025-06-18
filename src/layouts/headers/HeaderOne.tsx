@@ -59,7 +59,7 @@ const HeaderOne = ({ headerTop }: any) => {
                     <div className="icon">
                       <i className="fa-solid fa-phone-volume"></i>
                     </div>
-                    <a href="tel:9999999999">9999999999</a>
+                    <a href="tel:+919639020081">+91 9639020081</a>
                   </div>
                   <div className="header__hamburger d-xl-block my-auto">
                     <div

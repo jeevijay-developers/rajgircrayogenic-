@@ -6,7 +6,7 @@ import HeaderOne from "@/layouts/headers/HeaderOne";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-  title: "Rajgit cryogenics",
+  title: "Rajgir cryogenics",
 };
 const index = () => {
   return (
