@@ -48,7 +48,8 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: any) => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <Link target="_blank" href="#">
-                        Main Street, Melbourne, Australia
+                        Khata No. 815, Pingakash Beverages Pvt Ltd, Talera,
+                        Bundi, Rajasthan, 323021
                       </Link>
                     </div>
                   </li>
