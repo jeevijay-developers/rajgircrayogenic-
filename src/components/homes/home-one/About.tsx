@@ -58,7 +58,7 @@ const About = () => {
                   }}
                 >
                   <Image
-                    src={"/assets/img/Plant1.jpg"}
+                    src={"/assets/img/rajgir/3.jpeg"}
                     alt="img"
                     style={{
                       border: "4px solid white",
