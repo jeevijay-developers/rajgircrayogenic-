@@ -19,7 +19,7 @@ const FooterOne = () => {
                 <div className="widget-head">
                   <Link href="/">
                     {/* <Image src={logo} alt="logo-img" /> */}
-                    Rajgir crayogenic Gases
+                    Rajgir Cryogenic Gases LLP
                   </Link>
                 </div>
                 <div className="footer-content">

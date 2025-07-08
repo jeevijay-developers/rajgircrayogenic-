@@ -2,7 +2,7 @@ import Service from "@/components/inner-pages/services/service";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-  title: "Rajgir crayogenic Gases",
+  title: "Rajgir Cryogenic Gases LLP",
 };
 const index = () => {
   return (

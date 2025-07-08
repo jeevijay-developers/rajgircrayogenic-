@@ -3,7 +3,7 @@ import Wrapper from "@/layouts/Wrapper";
 import { ToastContainer } from "react-toastify";
 
 export const metadata = {
-  title: "Rajgir crayogenic Gases",
+  title: "Rajgir Cryogenic Gases LLP",
 };
 const index = () => {
   return (
