@@ -117,7 +117,7 @@ const Hero = () => {
                             }}
                           >
                             {" "}
-                            Rajgir Cryogenic Gases{" "}
+                            Rajgir Cryogenic Gases LLP{" "}
                           </span>
                           , <br /> we specialize in delivering high-quality{" "}
                           <br />{" "}

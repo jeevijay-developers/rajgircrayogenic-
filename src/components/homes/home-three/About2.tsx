@@ -16,13 +16,13 @@ interface ContentType {
 
 const about_content: ContentType = {
   sub_title: "ABOUT",
-  title: "About Rajgir Cryogenic Gases",
+  title: "About Rajgir Cryogenic Gases LLP",
   desc_1: (
     <>
-      At Rajgir Cryogenic Gases, we specialize in delivering high-quality carbon
-      dioxide (CO2) solutions for various industrial applications. From liquid
-      CO2 storage to CO2 recovery plants and dry ice production, we provide
-      innovative and efficient solutions tailored to meet your needs.
+      At Rajgir Cryogenic Gases LLP, we specialize in delivering high-quality
+      carbon dioxide (CO2) solutions for various industrial applications. From
+      liquid CO2 storage to CO2 recovery plants and dry ice production, we
+      provide innovative and efficient solutions tailored to meet your needs.
     </>
   ),
   desc_2: (

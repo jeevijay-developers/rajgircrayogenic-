@@ -17,7 +17,7 @@ export const applicationData = [
     title: "Airline ",
     highlight: "Catering",
     image: "/assets/img/Applications/3.jpeg",
-    content: `In airline catering, maintaining food quality during transit is critical. Rajgir Cryogenic Gases provides high-purity dry ice that keeps meals fresh and hygienic without the need for electricity. Stored in insulated containers within trolleys, dry ice sublimates into gas without leaving moisture or residue, making it ideal for in-flight meal service and international catering logistics.`,
+    content: `In airline catering, maintaining food quality during transit is critical. Rajgir Cryogenic Gases LLP provides high-purity dry ice that keeps meals fresh and hygienic without the need for electricity. Stored in insulated containers within trolleys, dry ice sublimates into gas without leaving moisture or residue, making it ideal for in-flight meal service and international catering logistics.`,
     imageFirst: true,
   },
   {

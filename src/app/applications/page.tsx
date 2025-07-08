@@ -4,7 +4,7 @@ import HeaderTwo from '@/layouts/headers/HeaderTwo'
 import Wrapper from '@/layouts/Wrapper'
 import React from 'react'
 export const metadata = {
-  title: "Applications | Rajgir Cryogenic Gases",
+  title: "Applications | Rajgir Cryogenic Gases LLP",
 };
 const page = () => {
   return (

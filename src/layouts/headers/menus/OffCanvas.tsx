@@ -16,7 +16,7 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: any) => {
                 <div className="offcanvas__logo">
                   <Link href="/">
                     {/* <Image src={logo} alt="logo-img" /> */}
-                    Rajgir Cryogenic
+                    Rajgir Cryogenic Gases LLP
                   </Link>
                 </div>
                 <div className="offcanvas__close">
@@ -26,7 +26,7 @@ const OffCanvas = ({ offCanvas, setOffCanvas }: any) => {
                 </div>
               </div>
               <p className="text d-none d-lg-block">
-                At Rajgir Cryogenic Gases, we specialize in delivering
+                At Rajgir Cryogenic Gases LLP, we specialize in delivering
                 high-quality carbon dioxide (CO2) solutions for various
                 industrial applications. From liquid CO2 storage to CO2 recovery
                 plants and dry ice production, we provide innovative and

@@ -6,7 +6,7 @@ import HeaderOne from "@/layouts/headers/HeaderOne";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-  title: "About | Rajgir Cryogenic Gases",
+  title: "About | Rajgir Cryogenic Gases LLP",
 };
 const index = () => {
   return (

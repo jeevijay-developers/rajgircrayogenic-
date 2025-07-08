@@ -103,7 +103,7 @@ const faq_data: DataType[] = [
   {
     id: 6,
     data_wow_delay: ".9s",
-    title: "How can I contact Rajgir Cryogenic Gases?",
+    title: "How can I contact Rajgir Cryogenic Gases LLP ?",
     desc: (
       <>
         Please get in touch with us via:

@@ -15,9 +15,9 @@ const QualityAssurance = () => {
       </div>
 
       <p className="text-center fs-5 fw-semibold">
-        Rajgir Cryogenic follows the latest international processes and SOPs for
-        quality assurance checks. Quality analysis is done at various stages of
-        production.
+        Rajgir Cryogenic Gases LLP follows the latest international processes
+        and SOPs for quality assurance checks. Quality analysis is done at
+        various stages of production.
       </p>
 
       <div className="accordion mt-4" id="qualityAccordion">

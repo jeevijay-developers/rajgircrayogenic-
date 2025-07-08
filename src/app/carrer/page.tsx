@@ -4,7 +4,7 @@ import FooterOne from "@/layouts/footers/FooterOne";
 import HeaderOne from "@/layouts/headers/HeaderOne";
 import React from "react";
 export const metadata = {
-  title: "Career | Rajgir Cryogenic Gases",
+  title: "Career | Rajgir Cryogenic Gases LLP",
 };
 const Page = () => {
   return (

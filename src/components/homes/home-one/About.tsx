@@ -25,7 +25,7 @@ const about_data: DataType = {
   sub_title: "ABOUT TO Industril",
   title: (
     <>
-      Why Choose Rajgir Cryogenic Gases?
+      Why Choose Rajgir Cryogenic Gases LLP?
       {/* <span style={{ color: "#ffe000" }}> Since 1984 </span> */}
     </>
   ),
@@ -110,16 +110,18 @@ const About = () => {
               <div className="col-xl-6 col-lg-8 mt-5 mt-xl-0">
                 <div className="about-content">
                   <div className="section-title">
-                    <span className="wow fadeInUp">Rajgir Cryogenic Gases</span>
+                    <span className="wow fadeInUp">
+                      Rajgir Cryogenic Gases LLP
+                    </span>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
                       Why Choose Us?
                     </h2>
                   </div>
                   <p className="mt-4 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                    At Rajgir Cryogenic Gases, we are dedicated to delivering
-                    reliable, efficient, and eco-friendly CO<sub>2</sub>{" "}
-                    solutions. With years of experience across multiple
-                    industries, we provide cutting-edge technology and
+                    At Rajgir Cryogenic Gases LLP, we are dedicated to
+                    delivering reliable, efficient, and eco-friendly CO
+                    <sub>2</sub> solutions. With years of experience across
+                    multiple industries, we provide cutting-edge technology and
                     customized services for all your carbon dioxide needs.
                   </p>
                   <ul className="wow fadeInUp" data-wow-delay=".7s">

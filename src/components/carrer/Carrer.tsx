@@ -9,10 +9,10 @@ const Career = () => {
         Career
       </h2>
       <p style={{ fontSize: "18px", color: "#888", lineHeight: "1.6" }}>
-        Rajgir Cryogenic offers fantastic and exciting career opportunities. We
-        believe in employee empowerment to achieve greater corporate goals. We
-        are an equal opportunity employer. At Rajgir Cryogenic, we provide an
-        interesting and long-term career prospective.
+        Rajgir Cryogenic Gases LLP offers fantastic and exciting
+        career opportunities. We believe in employee empowerment to achieve
+        greater corporate goals. We are an equal opportunity employer. At Rajgir
+        Cryogenic, we provide an interesting and long-term career prospective.
       </p>
       <p
         style={{
