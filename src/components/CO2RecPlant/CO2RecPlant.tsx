@@ -7,13 +7,15 @@ export default function CO2RecoveryPage() {
     <div className="container">
       <h1 className="heading">CO₂ Recovery Plants</h1>
       <div className="d-flex justify-content-center  mb-5">
-        {/* <Image
-          alt="dry ice"
-          src="/assets/img/rajgir/17.jpeg"
-          className=" rounded-3"
-          width={500}
-          height={300}
-        /> */}
+        <div className="d-flex justify-content-center  mb-5">
+            <Image
+              alt="co2 recovery"
+              src="/assets/img/rajgir/18.jpeg"
+              className="  rounded-3"
+              width={500}
+              height={300}
+            />
+          </div>
       </div>
       <p className="description">
         We offer CO₂ recovery plants, on turn-key basis, from distilleries,

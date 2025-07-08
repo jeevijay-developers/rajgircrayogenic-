@@ -1,14 +1,23 @@
-'use client'
+"use client";
+
+import Image from "next/image";
+
 export default function VesselsAndEquipmentPage() {
   return (
     <div className="container">
       <h1 className="heading">Vessels and Equipment</h1>
-
+      <div className="d-flex justify-content-center  mb-5">
+        <Image
+          alt="Vessels And Equipment"
+          src="/assets/img/rajgir/19.jpeg"
+          className="  rounded-3"
+          width={500}
+          height={300}
+        />
+      </div>
       <div className="section">
         <h2 className="subheading">Process Vessels</h2>
-        <p className="description">
-          Dryers, Purifiers and Scrubbers.
-        </p>
+        <p className="description">Dryers, Purifiers and Scrubbers.</p>
       </div>
 
       <div className="section">
@@ -20,9 +29,7 @@ export default function VesselsAndEquipmentPage() {
 
       <div className="section">
         <h2 className="subheading">Vessels</h2>
-        <p className="description">
-          Storage Tanks and Mobile Tankers.
-        </p>
+        <p className="description">Storage Tanks and Mobile Tankers.</p>
       </div>
 
       <div className="section">
@@ -37,7 +44,7 @@ export default function VesselsAndEquipmentPage() {
           max-width: 800px;
           margin: 0 auto;
           padding: 3rem 1rem;
-          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
           background-color: transparent;
         }
 
@@ -69,5 +76,5 @@ export default function VesselsAndEquipmentPage() {
         }
       `}</style>
     </div>
-  )
+  );
 }
