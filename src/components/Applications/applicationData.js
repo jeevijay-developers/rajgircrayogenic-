@@ -22,7 +22,7 @@ export const applicationData = [
   },
   {
     title: "Food ",
-    highlight: "Processingg",
+    highlight: "Processing",
     image: "/assets/img/Applications/4.jpeg",
     content: `Rajgir’s CO2 and dry ice solutions play a vital role in food processing operations including chilling, freezing, packaging, and transport. Liquid CO2 provides rapid cooling while preserving texture, color, and nutritional value. Dry ice is used for quick freezing and controlled atmosphere packaging. Our offerings help reduce microbial activity, extend shelf life, and support hygienic standards across the food industry.`,
     imageFirst: false,

@@ -29,7 +29,7 @@ const menu_data: MenuItem[] = [
     title: "Products",
     link: "#",
     sub_menus: [
-      { link: "/hpcl", title: "High Priority Liquid CO2" },
+      { link: "/hpcl", title: "High Purity Liquid CO2" },
       { link: "/dryice", title: "Dry Ice" },
       { link: "/crp", title: "CO2 recovery plant" },
       { link: "ve", title: "Vessel and Equipment" },
