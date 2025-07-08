@@ -12,13 +12,13 @@ export default function CO2RecoveryPage() {
         technical team to design these machineries and equipment. We design CO₂ plants, which can produce High Purity
         Liquid Carbon dioxide as per ISBT standards.
       </p>
-      <p className="description">
+      {/* <p className="description">
         All our products are backed with thorough professional after-sales service.<br />
         To know more about us, please visit us at{' '}
         <a href="https://www.co2recoveryplants.in" target="_blank" rel="noopener noreferrer" className="link">
           www.co2recoveryplants.in
         </a>.
-      </p>
+      </p> */}
 
       <style jsx>{`
         .container {
