@@ -2,7 +2,7 @@
 export default function VesselsAndEquipmentPage() {
   return (
     <div className="container">
-      {/* <h1 className="heading">Vessels and Equipment</h1> */}
+      <h1 className="heading">Vessels and Equipment</h1>
 
       <div className="section">
         <h2 className="subheading">Process Vessels</h2>
