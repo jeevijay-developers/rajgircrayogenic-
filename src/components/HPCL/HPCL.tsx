@@ -92,9 +92,9 @@ export default function HPCL() {
           High Purity Liquid CO₂
         </h1>
         <p className="text-center mb-5">
-          Rajgir Cryogenic’s High Purity Liquid Carbon dioxide is used in
-          Processing of Fruits and Vegetables, Prawns and Shrimp farming, Spice
-          Grinding, & Super Critical Extraction of Spices and Flavors.
+          Rajgir Cryogenic Gases LLP’s High Purity Liquid Carbon dioxide is used
+          in Processing of Fruits and Vegetables, Prawns and Shrimp farming,
+          Spice Grinding, & Super Critical Extraction of Spices and Flavors.
         </p>
 
         <div className="table-responsive">
