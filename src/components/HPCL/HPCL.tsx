@@ -22,43 +22,45 @@ const data = [
 
 export default function HPCL() {
     return (
-        <>
+      <>
+        <Head>
+          <title>High Purity Liquid CO₂ - Rajgir Cryogenic</title>
+        </Head>
 
-            <Head>
-                <title>High Purity Liquid CO₂ - Punjab Carbonic</title>
-            </Head>
+        <div className={`container mt-5 page`}>
+          <h1 className="text-center mb-3 fw-bold text-primary">
+            High Purity Liquid CO₂
+          </h1>
+          <p className="text-center mb-5">
+            Rajgir Cryogenic’s High Purity Liquid Carbon dioxide is used in
+            Processing of Fruits and Vegetables, Prawns and Shrimp farming,
+            Spice Grinding, & Super Critical Extraction of Spices and Flavors.
+          </p>
 
-            <div className={`container mt-5 page`}>
-                <h1 className="text-center mb-3 fw-bold text-primary">High Purity Liquid CO₂</h1>
-                <p className="text-center mb-5">
-                    Punjab Carbonic’s High Purity Liquid Carbon dioxide is used in Processing of Fruits and Vegetables,
-                    Prawns and Shrimp farming, Spice Grinding, & Super Critical Extraction of Spices and Flavors.
-                </p>
-
-                <div className="table-responsive">
-                    <table className={`table table-bordered table-hover customTable`}>
-                        <thead className="table-light">
-                            <tr>
-                                <th>#</th>
-                                <th>Parameter</th>
-                                <th>Specification</th>
-                                <th>Lower Detection Limit</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {data.map(({ id, parameter, specification, ldl }) => (
-                                <tr key={id}>
-                                    <td>{id}</td>
-                                    <td>{parameter}</td>
-                                    <td>{specification}</td>
-                                    <td>{ldl}</td>
-                                </tr>
-                            ))}
-                        </tbody>
-                    </table>
-                </div>
-                <style>
-                    {`
+          <div className="table-responsive">
+            <table className={`table table-bordered table-hover customTable`}>
+              <thead className="table-light">
+                <tr>
+                  <th>#</th>
+                  <th>Parameter</th>
+                  <th>Specification</th>
+                  <th>Lower Detection Limit</th>
+                </tr>
+              </thead>
+              <tbody>
+                {data.map(({ id, parameter, specification, ldl }) => (
+                  <tr key={id}>
+                    <td>{id}</td>
+                    <td>{parameter}</td>
+                    <td>{specification}</td>
+                    <td>{ldl}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <style>
+            {`
                 .page {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: transparent;
@@ -86,8 +88,8 @@ background-color: #e8e8e8
 }
 
             `}
-                </style>
-            </div>
-        </>
-    )
+          </style>
+        </div>
+      </>
+    );
 }

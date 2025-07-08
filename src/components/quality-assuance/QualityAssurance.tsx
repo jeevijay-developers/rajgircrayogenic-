@@ -9,15 +9,15 @@ const QualityAssurance = () => {
   return (
     <div className="container my-5 bg-dark text-light p-4 rounded">
       <div className="d-flex align-items-center justify-content-center mb-3">
-  <div className="w-25 border-top border-secondary mx-3"></div>
-  <h2 className="fw-bold text-white m-0">Quality Assurance</h2>
-  <div className="w-25 border-top border-secondary mx-3"></div>
-</div>
-
+        <div className="w-25 border-top border-secondary mx-3"></div>
+        <h2 className="fw-bold text-white m-0">Quality Assurance</h2>
+        <div className="w-25 border-top border-secondary mx-3"></div>
+      </div>
 
       <p className="text-center fs-5 fw-semibold">
-        Punjab Carbonic follows the latest international processes and SOPs for quality assurance checks. 
-        Quality analysis is done at various stages of production.
+        Rajgir Cryogenic follows the latest international processes and SOPs for
+        quality assurance checks. Quality analysis is done at various stages of
+        production.
       </p>
 
       <div className="accordion mt-4" id="qualityAccordion">
@@ -39,10 +39,10 @@ const QualityAssurance = () => {
             id="collapseOne"
             className="accordion-collapse collapse"
             aria-labelledby="headingOne"
-            
           >
             <div className="accordion-body">
-              We ensure production and delivery of high-quality products by having best quality processes for production.
+              We ensure production and delivery of high-quality products by
+              having best quality processes for production.
             </div>
           </div>
         </div>
@@ -65,10 +65,10 @@ const QualityAssurance = () => {
             id="collapseTwo"
             className="accordion-collapse collapse"
             aria-labelledby="headingTwo"
-            
           >
             <div className="accordion-body">
-              Implementation of quality policies and procedures across all departments ensures consistency and reliability.
+              Implementation of quality policies and procedures across all
+              departments ensures consistency and reliability.
             </div>
           </div>
         </div>
@@ -91,10 +91,10 @@ const QualityAssurance = () => {
             id="collapseThree"
             className="accordion-collapse collapse"
             aria-labelledby="headingThree"
-            
           >
             <div className="accordion-body">
-              Our compliance checks align with national and international standards for safety, sustainability, and excellence.
+              Our compliance checks align with national and international
+              standards for safety, sustainability, and excellence.
             </div>
           </div>
         </div>
@@ -117,10 +117,10 @@ const QualityAssurance = () => {
             id="collapseFour"
             className="accordion-collapse collapse"
             aria-labelledby="headingFour"
-            
           >
             <div className="accordion-body">
-              We actively monitor customer feedback and implement improvements to deliver exceptional service.
+              We actively monitor customer feedback and implement improvements
+              to deliver exceptional service.
             </div>
           </div>
         </div>
